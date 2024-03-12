@@ -72,7 +72,8 @@
   }
 
   .front-job-listings > p {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    padding: 1rem;
     width: 40%;
     text-align: center;
     height: 3rem;
