@@ -71,12 +71,13 @@
     font-size: 1.3rem;
     width: 40%;
     text-align: center;
+    height: 3rem;
   }
 
   .stats {
     display: grid;
     grid-template-columns: 30% 30%;
-    gap: 4rem;
+    gap: 5rem;
   }
 
   .old-new > h2 {
