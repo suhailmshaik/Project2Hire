@@ -59,6 +59,10 @@
     gap: 1rem;
   }
 
+  .front-search-box > input {
+    width: 70vw;
+  }
+
   .front-job-listings {
     display: flex;
     flex-wrap: wrap;
