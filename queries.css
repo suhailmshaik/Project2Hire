@@ -1,0 +1,148 @@
+@media (max-width: 34em) {
+  /* html {
+    width: 100vw;
+  } */
+
+  .front > img {
+    display: none;
+  }
+
+  nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav > * {
+    display: none;
+  }
+
+  nav > h1 {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .front {
+    width: 100%;
+  }
+
+  .front-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .front-left > h2 {
+    font-size: 2rem;
+  }
+
+  .front-left > p {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .front-search-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    gap: 1rem;
+  }
+
+  .front-job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .front-job-listings > p {
+    font-size: 1.3rem;
+    width: 40%;
+    text-align: center;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 4rem;
+  }
+
+  .old-new > h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .old-new-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .old-new-columns > article {
+    width: 100%;
+    padding: 2rem 3rem;
+  }
+
+  .old-new-columns > article > h3 {
+    font-size: 1rem;
+  }
+
+  .how-p2h-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .how-p2h-works > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .how-p2h-works > div > h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .how-p2h-works > div > p {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
+
+  .thumbnail {
+    height: 12rem;
+  }
+
+  .working {
+    flex-direction: column;
+  }
+
+  .working-item {
+    width: 70%;
+  }
+
+  .skillset > h2 {
+    font-size: 2.5rem;
+  }
+
+  .skills-list {
+    grid-template-columns: 1fr;
+    width: 80vw;
+  }
+}
